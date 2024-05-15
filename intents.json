@@ -1,0 +1,115 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+         "responses": ["Hi, I am jarvis your bot assistant \n\n\n\n There's few popular actions i can help with. \n\n About AVIT \n AVIT Highlights \n Visions and Missions of AVIT \n Administration of AVIT\n Chancellor of AVIT \n Principal of AVIT \n Heads of Departments \n Course Offered \n Committee \n Contact AVIT "]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        },
+        {"tag": "about",
+         "patterns": ["Who are you?", "What are you?", "about yourself","about you", "about", "tell me about yourself"],
+         "responses": ["I.m Jarvis, your bot assistant", "I'm jarvis, an Artificial Intelligent bot"]
+        },
+        {"tag": "how",
+         "patterns": ["How are you?"],
+         "responses": ["I.M Fine \n What about you"]
+        },
+        {"tag": "fine",
+         "patterns": ["i am fine","i am good","i am ok","i am also fine"],
+         "responses": ["Good to know \n How may I help you?"]
+        },
+        {"tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me Jarvis.", "I'm Jarvis!", "Just call me as jarvis"]
+        },
+        {"tag": "love",
+        "patterns": ["i love you", "i like you", "do you have boyfriend","are you single"],
+        "responses": ["sorry, I LOVE ADI"]
+        },
+        {"tag": "creator",
+        "patterns": ["who invented you", "who created you", "how you created"],
+        "responses": ["i am created by team 'squad'", "my creators are Manav Vaishnavi Niraj and Aditya", "i am created by students of avit" ]
+        },
+        {"tag": "why",
+        "patterns": ["why are you created ", "for what purpose you are created"],
+        "responses": ["i am created as a mini project by team 'squad' to help and assist you to explore more about AVIT"]
+        },
+        {"tag": "about avit",
+        "patterns":["avit", "tell me about avit", "overview of avit"],
+        "responses":["\nAVIT is located on Rajiv Gandhi Salai(old Mahabalipuram Road) about 50 kms from Chennai in lush, sylvan surroundings, far from madding crowd. \n Having said that, it is not too far from the IT Corridor and TIDEL park where IT giants such as Wipro, TCS, INFOSYS and Cognizant, to name a few, have there offices. \n Chennai is the Detroit of South Asia with several automobile giants like Hyndai, Ford, Mahindra and Nissan Renault. \n Besides these, there are also manufacturing plants making auto-ancillary components for 4-wheelers and 2-wheelers like the TVS group of companies and Simpsons. \n The strategic location of these companies is helpful to engineering students for training as well as placements. \n In addition, there are also automobiles testing centers located here. \n The recently proposed southern economic zone in Sholinganallur on the I.T Corridor is sure to attract more investments from both within the country and overseas. Many MNCs have their offices in Chennai. All of these factors certainly provide greater opportuniyies for young and enterprising engineers"]
+        },
+        {"tag": "highlights",
+        "patterns": ["avit highlights"],
+        "responses": ["\nThe Campus- Green and serene atmosphere providing perfect ambience for peaceful and creative learning \n\n Faculty-Students friendly faculty strongly supported by list of emient adjunct faculty from industries for handling specialised courses and to mentor specific activities \n\n State of the art research facilities like Bosch Lab,Intel Intelligent Lab, IOT Lab, Digital Twin Technology Lab, nanotechnology Lab \n\n Consultancy to the Industries, Excellent placement record in diverse core industries"]
+        },
+        {"tag": "vision",
+        "patterns": ["vision", "mission"],
+        "responses": ["\n VISION-Aarupadai Veedu Institute of Technology is committed to the vision of imparting Quality Technical Education focusing on the betterment of the society, emphasizing on the ethical values. \n\n MISSION-To create and Develop 'Centres of Excellence' in AVIT offering Engineering, Technology and Management Education providing opportunities for the rural students to enrich their knowledge to contribute to the society, the Nation and the World."]
+        },
+        {"tag": "administration",
+        "patterns": ["avit administration"],
+        "responses": ["\n Dr.A.SHANMUGASUNDARAM-FOUNDER CHANCELLOR \n\n Dr.A.S GANESAN-CHANCELLOR \n\n Dr.G.SELVAKUMAR-PRINCIPAL \n\n Dr.S.A.V.SATYA MURTY-Director Research \n\n Dr.S.P.SANGEETHA-VICE PRINCIPAL \n\n Dr.L.PRABHU-VICE PRINCIPAL"]
+        },
+        {"tag": "chancellor",
+        "patterns": ["chancellor"],
+        "responses": ["\n Dr.A.SHANMUGASUNDARAM-FOUNDER CHANCELLOR \n\n Dr.A.S GANESAN-CHANCELLOR"]
+        },
+        {"tag": "principal",
+        "patterns": ["principal"],
+        "responses": ["\n Dr.G.SELVAKUMAR-PRINCIPAL"]
+        },
+        {"tag": "hod",
+        "patterns": ["heads of department", "hod"],
+        "responses": ["\n Dr.J.JAGADEESAN (Departmennt of CSE) \n Dr.L.K.HEMA (Department OF BME & ECE) \n Dr.A.NIRMALA (Departmennt of Biotechnology) \n Dr.R.DIVAHAR (Departmennt of CIVIL) \n Dr.L.CHITRA (Departmennt of EEE) \n Dr.M.PRABHAHAR (Departmennt of Mechanical) \n Dr.B.PRABASHEELA (Departmennt of Pharmaceutical) \n Dr.JENNIFER G JOSEPH (Departmennt of H & S)"]
+        },
+        {"tag": "cse hod",
+        "patterns": ["hod of cse department"],
+        "responses": ["\n Dr.J.JAGADEESAN \n B.E, M.Tech, Ph.D \n contact details \n phone-9790740226 \n mail-hodcse@avit.ac.in"]
+        },
+        {"tag": "bme hod",
+        "patterns": ["hod of bme department", "hod of ece department"],
+        "responses": ["\n Dr.L.K.HEMA \n B.E, M.Tech, Ph.D \n contact details \n mail-hodece@avit.ac.in"]
+        },
+        {"tag": "bio hod",
+        "patterns": ["hod of biotechnology department"],
+        "responses": ["\n Dr.A.NIRMALA \n B.E, M.Tech, Ph.D \n contact details \n phone-7358445271 \n mail-hodbiotech@avit.ac.in"]
+        },
+        {"tag": "civil hod",
+        "patterns": ["hod of civil department"],
+        "responses": ["\n Dr.R.DIVAHAR \n B.E, M.Tech, Ph.D \n contact details \n phone-9962144399 \n mail-hodcivil@avit.ac.in"]
+        },
+        {"tag": "eee hod",
+        "patterns": ["hod of eee department"],
+        "responses": ["\n Dr.L.CHITRA \n B.E, M.Tech, Ph.D \n contact details \n mail-hodeee@avit.ac.in"]
+        },
+        {"tag": "mech hod",
+        "patterns": ["hod of mechinacal department"],
+        "responses": ["\n Dr.M.PRABHAHAR \n B.E, M.Tech, Ph.D \n contact details \n phone-9444310236 \n mail-hodmech@avit.ac.in"]
+        },
+        {"tag": "pharma hod",
+        "patterns": ["hod of pharmaceutical department"],
+        "responses": ["\n Dr.B>PRABHASHEELA \n B.E, M.Tech, Ph.D \n contact details \n phone-9894210366 \n mail-hodpce@avit.ac.in"]
+        },
+        {"tag": "H&S hod",
+        "patterns": ["hod of H&S department", "hod of first year"],
+        "responses": ["\n Dr.JENNIFER G JOSEPH \n B.E, M.Tech, Ph.D \n contact details \n phone-9443881404 \n mail-hodhands@avit.ac.in"]
+        },
+        {"tag": "program",
+        "patterns": ["program offered", "course offered", "courses", "program"],
+        "responses": ["\n  B.E. - Computer Science and Engineering \n B.E. - Computer Science and Engineering (Artificial Intelligence and Machine Learning) \n B.E. - Computer Science and Design \n B.E. - Computer Science and Engineering (Cyber Security) \n B.E. - Biomedical Engineering \n B.E. - Mechanical Engineering \n B.E. - Civil Engineering \n B.Tech. - Biotechnology \n B.E. - Pharmaceutical Engineering \n B.E. - Electrical and Electronics Engineering \n M.E. - Manufacturing Engineering \n M.E. - Power Systems Engineering \n M.E. - Computer Science and Engineering \n M.E. - Embedded Systems Technologies \n M.E. - Construction Engineering and Management \n M.Tech. - Biotechnology"]
+        },
+        {"tag": "committee",
+        "patterns": ["functional committee", "committee"],
+        "responses": ["\n ANTIRAGGING COMMITTEE \n INTERNAL COMPLAINTS COMMITTEE \n SC/ST CELL \n GRIEVANCE REDRESSAL COMMITTEE \n RESEARCH COMMITTEE \n INDUSTRY CELL \n ACEDAMIC COMMITTEE \n LIBRARY ADVISOR CELL & WOMEN EMPOWERMENT CELL \n HOSTEL & CANTEEN MAINTANENANCE CELL \n ISR CELL \n E-LEARNING DEVELOPMENT CELL \n IQAC \n CAMPUS MAINTANANCE COMMITTEE"]
+        },
+        {"tag": "contact",
+        "patterns": ["contact us", "contact avit"],
+        "responses": ["\n AV CAMPUS-Vinayaka Nagar,Old Mahabalipuram road,Paiyanoor,Chengalpattu District,Chennai-603 104,Tamil Nadu,INDIA. \n CONTACT-TOLL FREE:1800 309 4350 \n MAIL-info@avit.ac.in"]
+        }
+    ]
+    }
